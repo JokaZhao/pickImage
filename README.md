@@ -16,3 +16,13 @@
 ```
 ./pickImageWithApi.sh -p oss://bucket/dir -s 
 ```
+
+
+依赖的API如下:
+
+| 各部分 | 参数 | 含义 |
+| - | :-: | -: |
+|https://bing.com/HPImageArchive.aspx?|无 |无|
+|format=js | js(也就是json),xml|输出图片信息所用的数据格式|
+|&idx=0|0（默认）,1,2,3,4,5,6,7|输出x天前(0表示今天)的图片信息|
+|&n=1|0（默认）,1,2,3,4,5,6,7|输出x天内（1表示今天）所有的图片信息|
